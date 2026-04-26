@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Full Screen Gradient Background */
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* Glass Card */
+.card {
+  width: 320px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* Counter Number */
+.counter-value {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Buttons Container */
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Buttons Base */
+.btn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+
+/* Increment Button */
+.increment {
+  background: linear-gradient(135deg, #00c853, #69f0ae);
+}
+
+.increment:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 20px rgba(0,255,150,0.4);
+}
+
+/* Decrement Button */
+.decrement {
+  background: linear-gradient(135deg, #ff1744, #ff8a80);
+}
+
+.decrement:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 20px rgba(255,0,80,0.4);
+}
+
+/* Click effect */
+.btn:active {
+  transform: scale(0.9);
+} 
