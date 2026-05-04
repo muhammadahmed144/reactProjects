@@ -1,0 +1,134 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  /* padding: 20px; */
+  background-color: #111;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.parent h1 {
+  color: #fff;
+}
+
+.card {
+  height: 330px;
+  width: 280px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.top img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 3px 6px;
+  font-size: 10px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #8b8b8b;
+}
+
+.center {
+  /* background-color: red; */
+}
+
+.center h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.center .tag {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.center .tag h4 {
+  font-size: 10px;
+  background-color: #dadada;
+  color: #111;
+  padding: 4px 8px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.center h3 span {
+  font-size: 9px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.center h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #e3e3e3;
+  padding-top: 15px;
+}
+
+.bottom button {
+  background-color: black;
+  color: aliceblue;
+  padding: 5px 10px;
+  border: null;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.bottom button:hover {
+  background-color: #333;
+}
+
+.bottom h3 {
+  font-size: 17px;
+}
+
+.bottom p {
+  font-size: 10px;
+  color: #8b8b8b;
+}
